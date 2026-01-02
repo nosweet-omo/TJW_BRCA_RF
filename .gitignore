@@ -1,0 +1,28 @@
+# 忽略 Python 编译文件和缓存
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.env
+.venv/
+venv/
+
+data/
+bed_data/
+External_Validation/
+# --- 忽略原本的大数据文件 ---
+# 忽略所有 CSV 表格
+*.csv
+
+# 忽略所有压缩包
+*.gz
+*.zip
+*.tar
+
+# 忽略生物信息学/大数据格式 (你提到的文件)
+*.bed
+*.fastq
+*.fq
+*.bam
+*.sam
+*.fa
+*.fasta
